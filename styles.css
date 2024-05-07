@@ -1,0 +1,228 @@
+
+/* Navigation bar section */
+
+#title{
+   background-color: black;
+}
+
+.navname{
+  margin-left: 15%;
+}
+#name{
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+/* Section beneath navbar*/
+
+.appdetail{
+  margin-right: 23.5%;
+}
+.paragraph{
+  color: white;
+}
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+.interface{
+padding-bottom: 6%;
+ margin: 35% 1% 5% 6%;
+
+}
+
+/* Applying styles for common elements*/
+h1{
+  
+  font-size: 60px;
+  line-height: normal;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+h3{
+  font-weight: bold;
+}
+h2{
+  font-weight: bold;
+}
+a{
+  font-size: 25px;
+  font-family: monospace;
+}
+
+/*Downloads,reviews,rating page*/
+
+.features{
+  padding: 7% 15%;
+  background-color: white;
+}
+.style{
+  text-align: center;
+}
+
+
+/*page shows application interface(2)*/
+
+.dis{
+ 
+  background-color: black;
+ padding: 7% 15%;
+ color: aliceblue;
+}
+
+.interface-two{
+  margin-top: 20%;
+  transform: rotate(25deg);
+  margin-right: 5px;
+}
+.col-lg-6{
+  padding-left: 22.4%;
+}
+.disstyles{
+  font-style: italic;
+  padding: 7%;
+  text-align: center;
+}
+
+/*Page showing main features with icon*/
+
+.distwo{
+  padding: 7% 15%;
+  text-align: center;
+  padding: 4.5%;
+  background-color: white;
+}
+.icon{
+  color: rgb(14, 5, 3);
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+.icon:hover{
+  color: rgb(8, 169, 222);
+}
+
+i{
+  padding: 1%;
+}
+
+/*Second download section*/
+
+#download{
+  background-color: black;
+ text-align: center;
+}
+.down{
+  color: white;
+  padding-top: 6%;
+}
+button{
+  padding: 0cm;
+}
+.dis-style{
+  text-align: inherit;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  padding: 10%;
+  text-decoration: underline;
+}
+
+
+/*Premium purchasing section(pricing section)*/
+
+#price{
+  text-align: center;
+  padding: 3% 2%;
+  background-color: white;
+}
+.signupbtn{
+  border-width: 3px;
+  border-style: solid;
+}
+
+/* Carousel section */
+
+.carousel{
+  background-color: black;
+  text-align: center;
+}
+.testmonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.review{
+  color: white;
+ 
+}
+.usericon{
+  width: 50px;
+  height: 50px;
+  margin-right: 2%;
+  
+}
+.user-name{
+  color: white;
+  
+}
+
+/*Address section*/
+
+#address{
+  text-align: center;
+}
+.socialicons{
+  color: rgb(14, 3, 3);
+  margin-top: 15px;
+}
+.ownername{
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* optimizing for phone*/
+
+@media (max-width:600px) {
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .interface-two{
+    margin-top: 10%;
+    transform: rotate(0);
+    text-align: center;
+    padding-left: 0%;
+}
+.col-lg-6{
+  padding-left: 38px;
+}
+#dbtn{
+  text-align: center;
+ 
+}
+#appimagetwo{
+  text-align: center;
+}
+#appimage{
+  text-align: center;
+  padding-top: 0px;
+}
+.dis-style{
+  text-align: center;
+  font-size: 30px;
+  padding-left: 0%;
+}
+.disstyles{
+  text-align: center;
+}
+}
