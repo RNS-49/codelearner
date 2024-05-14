@@ -1,4 +1,6 @@
-
+body{
+  overflow-x: hidden;
+}
 /* Navigation bar section */
 
 #title{
